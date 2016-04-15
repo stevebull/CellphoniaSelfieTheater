@@ -1,9 +1,9 @@
 {
 	"name" : "OTSClient",
 	"version" : 1,
-	"creationdate" : -754166675,
-	"modificationdate" : -754164164,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : -754166917,
+	"modificationdate" : 3542885009,
+	"viewrect" : [ 242.0, 114.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,17 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"OTSCharacterPicker.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"OTSPractice.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"OTSSceneRunner.maxpat" : 			{
+			"foldermanager.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -46,9 +36,35 @@
 
 		}
 ,
+		"code" : 		{
+			"scriptreader.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"makefolder.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"copyfile.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+
+		}
+,
 		"data" : 		{
 			"script.json" : 			{
 				"kind" : "json",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
+			"shell.mxo" : 			{
+				"kind" : "object",
 				"local" : 1
 			}
 
