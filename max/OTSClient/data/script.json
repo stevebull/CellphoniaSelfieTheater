@@ -1,0 +1,70 @@
+{
+  "lines" : [
+    {
+      "speaker" : "George",
+      "text" : "I can see into your room.",
+      "movie" : "george1.mov"
+    },
+    {
+      "speaker" : "Emily",
+      "text" : "I'm calling the cops.",
+      "movie" : "emily1.mov"
+    },
+    {
+      "speaker" : "George",
+      "text" : "You sure aren't doing your homework.",
+      "movie" : "george2.mov"
+    },
+    {
+      "speaker" : "Emily",
+      "text" : "It passes the time.",
+      "movie" : "emily2.mov"
+    },
+    {
+      "speaker" : "George",
+      "text" : "How about giving me answers to the math?",
+      "movie" : "george3.mov"
+    },
+    {
+      "speaker" : "Emily",
+      "text" : "Text me. I have to get these algorithms right for a tractor beam. You know, teleportation?",
+      "movie" : "emily3.mov"
+    },
+    {
+      "speaker" : "George",
+      "text" : "Beam me up, Scotty. Or do I have to use my imaginagion?",
+      "movie" : "george4.mov"
+    },
+    {
+      "speaker" : "Emily",
+      "direction" : "smiles invitingly",
+      "movie" : "emily4.mov"
+    },
+    {
+      "speaker" : "George",
+      "text" : "Anyway the moon's so bright who can work?",
+      "movie" : "george5.mov"
+    },
+    {
+      "speaker" : "Emily",
+      "text" : "The moon will set soon enough.",
+      "movie" : "emily5.mov"
+    },
+    {
+      "speaker" : "George",
+      "direction" : "looking over his shoulder",
+      "text" : "It's Dad. I have to go.",
+      "movie" : "george6.mov"
+    },
+    {
+      "speaker" : "Emily",
+      "text" : "If I send you the answers, you'll do something for me, won't you?",
+      "movie" : "emily6.mov"
+    },
+    {
+      "speaker" : "George",
+      "text" : "Depends.",
+      "movie" : "george7.mov"
+    }
+  ]
+}
