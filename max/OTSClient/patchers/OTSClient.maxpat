@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
+		"rect" : [ 34.0, 79.0, 908.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -378,9 +378,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1772.0, 155.0, 100.0, 22.0 ],
-					"style" : ""
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "umenu",
+							"parameter_shortname" : "umenu",
+							"parameter_type" : 3,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0 ],
+							"parameter_invisible" : 1
+						}
+
+					}
+,
+					"style" : "",
+					"varname" : "umenu"
 				}
 
 			}
@@ -1008,7 +1021,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.784, 0.145, 0.023, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-112",
@@ -1017,8 +1030,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1669.0, 681.0, 117.0, 24.0 ],
 					"style" : "",
-					"text" : "Complete",
-					"textcolor" : [ 0.043, 0.365, 0.095, 1.0 ]
+					"text" : "INCOMPLETE",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1067,7 +1080,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.784, 0.145, 0.023, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-108",
@@ -1076,8 +1089,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1669.0, 632.0, 117.0, 24.0 ],
 					"style" : "",
-					"text" : "Complete",
-					"textcolor" : [ 0.043, 0.365, 0.095, 1.0 ]
+					"text" : "INCOMPLETE",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1335,7 +1348,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.784, 0.145, 0.023, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-100",
@@ -1344,8 +1357,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1669.0, 587.0, 117.0, 24.0 ],
 					"style" : "",
-					"text" : "Complete",
-					"textcolor" : [ 0.043, 0.365, 0.095, 1.0 ]
+					"text" : "INCOMPLETE",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -1951,7 +1964,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor" : [ 0.784, 0.145, 0.023, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-53",
@@ -1960,8 +1973,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1669.0, 540.0, 117.0, 24.0 ],
 					"style" : "",
-					"text" : "Complete",
-					"textcolor" : [ 0.043, 0.365, 0.095, 1.0 ]
+					"text" : "INCOMPLETE",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -13602,6 +13615,10 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-60" : [ "umenu", "umenu", 0 ]
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "foldermanager.maxpat",
 				"bootpath" : "~/git/CellphoniaSelfieTheater/max/OTSClient/patchers",

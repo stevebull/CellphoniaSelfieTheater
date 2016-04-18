@@ -1,9 +1,14 @@
 inlets = 1;
 outlets = 1;
 
-var scriptFile = new File('../data/script.json', 'read');
-var s = scriptFile.readstring(20000);
-var script = JSON.parse(s);
+var script;
+setroot('script.json');
+
+function setroot(path) {
+	var scriptFile = new File(path, 'read');
+	var s = scriptFile.readstring(20000);
+	script = JSON.parse(s);
+}
 
 function get_text(idx) {
   outlet(0, 'line', script.lines[idx].text);
