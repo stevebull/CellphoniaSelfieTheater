@@ -2,7 +2,7 @@
 	"name" : "OTSServer",
 	"version" : 1,
 	"creationdate" : -751142541,
-	"modificationdate" : -751141218,
+	"modificationdate" : -750934302,
 	"viewrect" : [ 50.0, 95.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,7 +29,7 @@
 		}
 ,
 		"code" : 		{
-			"scriptreader.js" : 			{
+			"makefolder.js" : 			{
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
@@ -39,7 +39,7 @@
 
 			}
 ,
-			"makefolder.js" : 			{
+			"scriptreader.js" : 			{
 				"kind" : "javascript",
 				"local" : 1,
 				"singleton" : 				{
@@ -75,6 +75,15 @@
 		}
 ,
 		"externals" : 		{
+			"shell.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater/max/OTSClient/externals",
+					"projectrelativepath" : "../OTSClient/externals"
+				}
+
+			}
 
 		}
 

@@ -23,5 +23,9 @@ function get_speaker(idx) {
 }
 
 function get_movie(idx) {
+	if (idx >= script.lines.length) {
+		outlet(0, 'done');
+		return;
+	}
   outlet(0, 'movie', script.lines[idx].movie);
 }

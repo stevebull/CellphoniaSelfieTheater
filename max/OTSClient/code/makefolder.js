@@ -11,7 +11,9 @@ function make_new_folder() {
 	}
 	
 	var timestamp = Date.now();
-	outlet(0, "shell", "mkdir " + root_folder + "/u" + timestamp);
+	var new_folder = "u" + timestamp;
+	outlet(0, "shell", "mkdir " + root_folder + "/" + new_folder);
+	outlet(0, "new_folder", new_folder); 
 }
 
 function random_folder() {
@@ -30,4 +32,13 @@ function most_recent_folder() {
 	}
 	
 	outlet(0, "most_recent", "ls " + root_folder + " -tr | tail -1");
+}
+
+function move_folder(src, dst) {
+	if (root_folder === undefined) {
+		post("Must set root folder first\n");
+		return;
+	}
+	
+	outlet("shell", "mv -r " + src + " " + dst);
 }

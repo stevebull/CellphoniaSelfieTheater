@@ -2,8 +2,8 @@
 	"name" : "OTSClient",
 	"version" : 1,
 	"creationdate" : -754166917,
-	"modificationdate" : 3542885009,
-	"viewrect" : [ 242.0, 114.0, 300.0, 500.0 ],
+	"modificationdate" : -750938876,
+	"viewrect" : [ 145.0, 206.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -33,16 +33,26 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+,
+			"Stage-Manager-placeholder-20140819.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater",
+					"projectrelativepath" : "../.."
+				}
+
+			}
 
 		}
 ,
 		"code" : 		{
-			"scriptreader.js" : 			{
+			"makefolder.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"makefolder.js" : 			{
+			"scriptreader.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
