@@ -38,6 +38,7 @@
     {
       "speaker" : "Emily",
       "direction" : "smiles invitingly",
+	  "text": "<smiles invitingly>",
       "movie" : "emily4.mov"
     },
     {
