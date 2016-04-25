@@ -2,7 +2,7 @@
 	"name" : "OTSClient",
 	"version" : 1,
 	"creationdate" : -754166917,
-	"modificationdate" : -750938876,
+	"modificationdate" : -750783234,
 	"viewrect" : [ 145.0, 206.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -29,6 +29,16 @@
 				"local" : 1
 			}
 ,
+			"button-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"outline-01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"george.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -36,12 +46,7 @@
 ,
 			"Stage-Manager-placeholder-20140819.mov" : 			{
 				"kind" : "moviefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/git/CellphoniaSelfieTheater",
-					"projectrelativepath" : "../.."
-				}
-
+				"local" : 1
 			}
 
 		}
@@ -77,6 +82,10 @@
 				"kind" : "object",
 				"local" : 1
 			}
+
+		}
+,
+		"other" : 		{
 
 		}
 
