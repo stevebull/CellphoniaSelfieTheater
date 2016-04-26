@@ -2,7 +2,7 @@
 	"name" : "OTSServer",
 	"version" : 1,
 	"creationdate" : -751142541,
-	"modificationdate" : -750934302,
+	"modificationdate" : -750430100,
 	"viewrect" : [ 50.0, 95.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,6 +22,39 @@
 				"singleton" : 				{
 					"bootpath" : "~/git/CellphoniaSelfieTheater/max/OTSClient/patchers",
 					"projectrelativepath" : "../OTSClient/patchers"
+				}
+
+			}
+
+		}
+,
+		"media" : 		{
+			"sm1.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater",
+					"projectrelativepath" : "../.."
+				}
+
+			}
+,
+			"sm2.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater",
+					"projectrelativepath" : "../.."
+				}
+
+			}
+,
+			"sm3.mov" : 			{
+				"kind" : "moviefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater",
+					"projectrelativepath" : "../.."
 				}
 
 			}
