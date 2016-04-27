@@ -2,7 +2,7 @@
 	"name" : "OTSClient",
 	"version" : 1,
 	"creationdate" : -754166917,
-	"modificationdate" : -750783234,
+	"modificationdate" : -750366320,
 	"viewrect" : [ 145.0, 206.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -27,6 +27,16 @@
 			"emily.jpeg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
+			}
+,
+			"OTS-1280x720-booth-end-title.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater",
+					"projectrelativepath" : "../.."
+				}
+
 			}
 ,
 			"button-01.png" : 			{
