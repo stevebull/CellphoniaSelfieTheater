@@ -2,7 +2,7 @@
 	"name" : "OTSServer",
 	"version" : 1,
 	"creationdate" : -751142541,
-	"modificationdate" : -750430100,
+	"modificationdate" : -750351950,
 	"viewrect" : [ 50.0, 95.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -51,6 +51,26 @@
 ,
 			"sm3.mov" : 			{
 				"kind" : "moviefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater",
+					"projectrelativepath" : "../.."
+				}
+
+			}
+,
+			"OTS-1280x720-movie-opening-closing.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/git/CellphoniaSelfieTheater",
+					"projectrelativepath" : "../.."
+				}
+
+			}
+,
+			"fin-slate.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/git/CellphoniaSelfieTheater",
